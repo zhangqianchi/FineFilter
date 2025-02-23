@@ -53,7 +53,7 @@ def parse_args():
     )
     parser.add_argument(
         "--model_name",
-        default="/home/zhangqianchi/models/distilbert-base-uncased",
+        default="your_model_path",
         type=str,
         help="Pre-trained model name or path.",
     )
