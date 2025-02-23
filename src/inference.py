@@ -9,7 +9,6 @@ import random
 import argparse
 
 
-# 设置argparse
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Run inference with fine-tuned Llama model."
