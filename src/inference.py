@@ -48,7 +48,6 @@ def parse_args():
     return parser.parse_args()
 
 
-# 加载llama2模型
 def load_llama(model_path):
     tokenizer = AutoTokenizer.from_pretrained(
         model_path,
